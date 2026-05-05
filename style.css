@@ -154,3 +154,8 @@ section {
     color: #38bdf8;
     text-decoration: none;
 }
+
+.article {
+    opacity: 1 !important;
+    transform: none !important;
+}
