@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -255,8 +261,8 @@ section {
     background-color: #1b2945;
     padding: 25px;
     border-radius: 12px;
-    width: 320px;
-    transition: 0.3s;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .project-card:hover {
@@ -405,4 +411,14 @@ footer {
         padding: 15px;
         font-size: 0.9rem;
     }
+    html, body {
+    overflow-x: hidden;
 }
+
+img {
+    max-width: 100%;
+}
+    
+}
+
+
