@@ -61,8 +61,90 @@ nav a:hover {
 /* SECTIONS */
 section {
     padding: 60px 50px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.6s;
+}
+
+/* =========================
+   PRESENTATION BTS SIO
+========================= */
+
+.presentation-section {
+    padding: 80px 50px;
+}
+
+.presentation-container {
+    background: linear-gradient(135deg, #1b103d, #14092c);
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(128, 0, 255, 0.2);
+}
+
+.presentation-container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.presentation-container h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2rem;
+    color: #c084fc;
+}
+
+.intro,
+.description {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.option-card {
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(192,132,252,0.3);
+}
+
+.option-card h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #d8b4fe;
+}
+
+.option-card p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.option-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.option-card ul li {
+    background: rgba(255,255,255,0.08);
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 10px;
 }
 
 /* GRID */
@@ -96,19 +178,6 @@ section {
     color: black;
     padding: 8px 12px;
     border-radius: 5px;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #020617;
-}
-
-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: 0.6s;
 }
 
 /* VEILLE */
@@ -160,43 +229,56 @@ section {
     transform: none !important;
 }
 
+/* PROJETS */
 .projects-section {
-  padding: 40px;
-  background-color: #020d2b;
-  color: white;
+    padding: 40px;
+    background-color: #020d2b;
+    color: white;
 }
 
 .projects-section h2 {
-  margin-bottom: 25px;
-  font-size: 2rem;
+    margin-bottom: 25px;
+    font-size: 2rem;
 }
 
 .section-title {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .projects-grid {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .project-card {
-  background-color: #1b2945;
-  padding: 25px;
-  border-radius: 12px;
-  width: 320px;
+    background-color: #1b2945;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
 .project-card h3 {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .project-card p {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .project-card a {
-  color: #7b2cff;
-  text-decoration: underline;
+    color: #7b2cff;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
 }
