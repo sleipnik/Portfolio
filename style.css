@@ -282,3 +282,92 @@ footer {
     padding: 20px;
     background: #020617;
 }
+
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .presentation-section {
+        padding: 40px 15px;
+    }
+
+    .presentation-container {
+        padding: 25px;
+    }
+
+    .presentation-container h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .presentation-container h2 {
+        font-size: 1.6rem;
+    }
+
+    .intro,
+    .description {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .options-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .option-card {
+        padding: 20px;
+    }
+
+    .option-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .projects-grid {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
