@@ -159,3 +159,44 @@ section {
     opacity: 1 !important;
     transform: none !important;
 }
+
+.projects-section {
+  padding: 40px;
+  background-color: #020d2b;
+  color: white;
+}
+
+.projects-section h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.section-title {
+  margin-top: 50px;
+}
+
+.projects-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #1b2945;
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+}
+
+.project-card h3 {
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  color: #7b2cff;
+  text-decoration: underline;
+}
