@@ -567,22 +567,16 @@ img {
     text-align: left;
 }
 
-/* ESPACEMENT ENTRE LES SECTIONS */
+/* ESPACEMENT ENTRE LES BLOCS */
 
-#skills {
-    margin-top: 80px;
-}
-
-#veille {
-    margin-top: 80px;
-}
-
-#contact {
-    margin-top: 80px;
+#skills h2,
+#veille h2,
+#contact h2 {
+    margin-top: 120px;
 }
 
 .projects-grid,
 .realisation-container,
 .veille-container {
-    margin-top: 30px;
+    margin-top: 50px;
 }
