@@ -554,9 +554,19 @@ img {
     width: 100%;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: stretch;
     gap: 40px;
 
     flex-wrap: wrap;
+}
+
+#projects h2,
+#realisations .section-title {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    box-sizing: border-box;
 }
