@@ -621,6 +621,23 @@ img {
     height: 100%;
 }
 
-.pro-card p {
-    flex-grow: 1;
+/* MEME HAUTEUR POUR LES CARTES */
+
+.realisation-container {
+    align-items: stretch;
+}
+
+.pro-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-card .project-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-buttons {
+    margin-top: auto;
 }
