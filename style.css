@@ -437,15 +437,16 @@ footer {
     background-color: #1b2945;
     border-radius: 18px;
     overflow: hidden;
-    width: 340px;
-    height: 520px;
+
+    width: 300px;
+    height: 420px;
+
     color: white;
     padding: 0;
     transition: 0.3s;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 
@@ -455,22 +456,22 @@ footer {
 
 .project-image {
     width: 100%;
-    height: 220px;
+    height: 160px;
     object-fit: cover;
     display: block;
 }
 
 .pro-card h3 {
-    padding: 20px 20px 10px;
-    font-size: 1.8rem;
-    line-height: 1.2;
+    padding: 15px 15px 10px;
+    font-size: 1.1rem;
+    line-height: 1.3;
 }
 
 .pro-card p {
-    padding: 0 20px;
+    padding: 0 15px;
     color: #cbd5e1;
-    font-size: 1rem;
-    margin-bottom: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
 }
 
 .project-tags {
