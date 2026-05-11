@@ -563,10 +563,6 @@ img {
 
 #projects h2,
 #realisations .section-title {
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    box-sizing: border-box;
+    margin-bottom: 40px;
+    text-align: left;
 }
