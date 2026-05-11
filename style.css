@@ -428,13 +428,17 @@ footer {
 
 .pro-card {
     background-color: #1b2945;
-    border-radius: 12px;
+    border-radius: 18px;
     overflow: hidden;
-    width: 520px; /* réduit la taille */
+    width: 360px; /* plus carré */
+    min-height: 520px;
     color: white;
     padding: 0;
-    margin: 0; /* enlève le centrage */
     transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pro-card:hover {
@@ -443,7 +447,7 @@ footer {
 
 .project-image {
     width: 100%;
-    height: 260px; /* image plus petite */
+    height: 220px;
     object-fit: cover;
     display: block;
 }
@@ -509,9 +513,10 @@ footer {
 
 .realisation-container {
     display: flex;
-    gap: 30px;
+    justify-content: center; /* centre les cartes */
+    gap: 40px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: stretch;
+    margin-top: 40px;
 }
-
 
