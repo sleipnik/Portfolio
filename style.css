@@ -423,19 +423,24 @@ footer {
 }
 
 /* =========================
-   REALISATION PRO
+   REALISATIONS PROFESSIONNELLES
 ========================= */
 
 #realisations {
     width: 100%;
     max-width: 1200px;
     margin: 80px auto 0;
+    padding: 0 20px;
 }
 
 #realisations .section-title {
+    width: 100%;
     text-align: left;
     margin-bottom: 40px;
+    color: white;
 }
+
+/* CARTES */
 
 .pro-card {
     background-color: #1b2945;
@@ -443,7 +448,7 @@ footer {
     overflow: hidden;
 
     width: 300px;
-    height: 420px;
+    min-height: 420px;
 
     color: white;
     padding: 0;
@@ -453,10 +458,11 @@ footer {
     flex-direction: column;
 }
 
-
 .pro-card:hover {
     transform: translateY(-5px);
 }
+
+/* IMAGE */
 
 .project-image {
     width: 100%;
@@ -464,6 +470,8 @@ footer {
     object-fit: cover;
     display: block;
 }
+
+/* CONTENU */
 
 .pro-card h3 {
     padding: 15px 15px 10px;
@@ -477,6 +485,8 @@ footer {
     font-size: 0.9rem;
     margin-bottom: 15px;
 }
+
+/* TAGS */
 
 .project-tags {
     display: flex;
@@ -492,6 +502,8 @@ footer {
     border-radius: 8px;
     font-size: 14px;
 }
+
+/* BOUTONS */
 
 .project-buttons {
     display: flex;
@@ -511,6 +523,7 @@ footer {
     transition: 0.3s;
     font-weight: 600;
     border: 1px solid rgba(255,255,255,0.08);
+
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -522,13 +535,15 @@ footer {
     transform: translateY(-2px);
 }
 
-/* CONTENEUR POUR METTRE LES REALISATIONS COTE A COTE */
+/* CONTENEUR */
 
 .realisation-container {
     width: 100%;
+
     display: flex;
     justify-content: center;
     align-items: stretch;
     gap: 40px;
+
     flex-wrap: wrap;
 }
