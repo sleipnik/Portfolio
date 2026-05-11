@@ -641,3 +641,7 @@ img {
 .project-buttons {
     margin-top: auto;
 }
+
+.pro-card p {
+    min-height: 90px;
+}
