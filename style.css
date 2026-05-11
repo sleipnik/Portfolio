@@ -411,15 +411,18 @@ footer {
         padding: 15px;
         font-size: 0.9rem;
     }
+
     html, body {
-    overflow-x: hidden;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
 }
 
-img {
-    max-width: 100%;
-}
-
-    /* =========================
+/* =========================
    REALISATION PRO
 ========================= */
 
@@ -428,12 +431,12 @@ img {
     color: #222;
     border-radius: 20px;
     overflow: hidden;
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .project-image {
     width: 100%;
-    height: 220px;
+    height: 320px;
     object-fit: cover;
 }
 
@@ -463,9 +466,9 @@ img {
 
 .project-buttons {
     display: flex;
-    flex-direction: column;
     gap: 15px;
     padding: 0 20px 25px;
+    flex-wrap: wrap;
 }
 
 .github-btn,
@@ -475,7 +478,6 @@ img {
     text-decoration: none;
     padding: 12px 18px;
     border-radius: 8px;
-    width: fit-content;
     transition: 0.3s;
 }
 
@@ -483,107 +485,3 @@ img {
 .demo-btn:hover {
     opacity: 0.8;
 }
-
-    /* =========================
-   PAGE SGI
-========================= */
-
-.sgi-page {
-    max-width: 1100px;
-    margin: auto;
-    padding: 50px 20px;
-}
-
-.project-nav {
-    padding: 20px 50px;
-}
-
-.project-nav a {
-    color: #38bdf8;
-    text-decoration: none;
-}
-
-.sgi-header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.sgi-subtitle {
-    color: #94a3b8;
-    font-size: 1.2rem;
-}
-
-.sgi-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 30px 0;
-}
-
-.sgi-tags span {
-    background: #1e293b;
-    color: #38bdf8;
-    padding: 10px 18px;
-    border-radius: 30px;
-    font-size: 14px;
-}
-
-.sgi-banner img {
-    width: 100%;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-
-.sgi-card {
-    background: #1e293b;
-    padding: 30px;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    line-height: 1.8;
-}
-
-.sgi-card h2 {
-    margin-bottom: 20px;
-    color: #38bdf8;
-}
-
-.sgi-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.sgi-buttons {
-    margin-top: 40px;
-}
-
-.sgi-btn {
-    display: inline-block;
-    background: #38bdf8;
-    color: black;
-    padding: 14px 25px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.sgi-btn:hover {
-    background: #0ea5e9;
-}
-
-/* MOBILE */
-
-@media screen and (max-width: 768px) {
-
-    .sgi-header h1 {
-        font-size: 2rem;
-    }
-
-    .sgi-page {
-        padding: 30px 15px;
-    }
-
-}
-
-
