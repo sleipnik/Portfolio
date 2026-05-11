@@ -654,39 +654,15 @@ img {
     height: 100%;
 }
 
-/* =========================
-   ALIGNEMENT DES CARTES
-========================= */
-
-/* REALISATIONS */
-
-.realisation-container {
-    align-items: stretch;
-}
-
-.pro-card {
-    display: flex;
-    flex-direction: column;
-}
-
-.pro-card .project-content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.project-buttons {
-    margin-top: auto;
-}
-
-.pro-card p {
-    min-height: 90px;
-}
-
-/* PROJETS */
+/* ALIGNEMENT DES CARTES PROJETS */
 
 .project-card {
-    min-height: 180px;
+    background-color: #1b2945;
+    padding: 25px;
+    border-radius: 12px;
+
+    width: 100%;
+    min-height: 190px;
 
     display: flex;
     flex-direction: column;
@@ -694,5 +670,11 @@ img {
 
 .project-card p {
     min-height: 70px;
+}
+
+/* BOUTONS EN BAS */
+
+.project-card a {
+    margin-top: auto;
 }
 
