@@ -580,3 +580,15 @@ img {
 .veille-container {
     margin-top: 50px;
 }
+
+/* ALIGNEMENT DES BOUTONS DANS LES CARTES */
+
+.pro-card .project-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pro-card p {
+    flex-grow: 1;
+}
