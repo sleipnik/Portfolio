@@ -672,9 +672,11 @@ img {
     min-height: 70px;
 }
 
-/* BOUTONS EN BAS */
+/* CONTENEUR DES BOUTONS */
 
-.project-card a {
-    margin-top: auto;
+.project-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 15px;
 }
-
