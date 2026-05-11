@@ -613,22 +613,46 @@ img {
     margin-top: 50px;
 }
 
+
 /* =========================
-   ALIGNEMENT DES BOUTONS
+   REALISATIONS PROFESSIONNELLES
 ========================= */
 
-/* REALISATIONS */
-
 .realisation-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: stretch;
 }
 
 .pro-card {
+    background-color: #1b2945;
+    border-radius: 18px;
+    overflow: hidden;
+
+    width: 300px;
+    min-height: 420px;
+
+    color: white;
+    transition: 0.3s;
+
     display: flex;
     flex-direction: column;
 }
 
+.pro-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
 .pro-card .project-content {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -639,12 +663,12 @@ img {
 }
 
 .project-buttons {
+    margin-top: auto;
+
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
-    margin-top: auto;
 }
-
 /* =========================
    CARTES PROJETS
 ========================= */
