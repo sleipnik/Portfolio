@@ -387,39 +387,53 @@ footer {
         font-size: 0.95rem;
     }
 
-    /* PROJETS */
-    .projects-grid {
-        flex-direction: column;
-    }
+/* PROJETS */
+.projects-grid {
+    flex-direction: column;
+}
 
-    .project-card {
-        width: 100%;
-        box-sizing: border-box;
-    }
+.project-card {
+    width: 100%;
+    box-sizing: border-box;
+}
 
-    /* VEILLE */
-    .veille-container {
-        grid-template-columns: 1fr;
-    }
+/* VEILLE */
+.veille-container {
+    grid-template-columns: 1fr;
+}
 
-    .veille-card img {
-        height: auto;
-    }
+.veille-card img {
+    height: auto;
+}
 
-    /* FOOTER */
-    footer {
-        padding: 15px;
-        font-size: 0.9rem;
-    }
+/* FOOTER */
+footer {
+    padding: 15px;
+    font-size: 0.9rem;
+}
 
-    html, body {
-        overflow-x: hidden;
-    }
+html,
+body {
+    overflow-x: hidden;
+}
 
-    img {
-        max-width: 100%;
-    }
+img {
+    max-width: 100%;
+}
 
+}
+
+/* =========================
+   ALIGNEMENT GLOBAL DES SECTIONS
+========================= */
+
+#projects,
+#realisations,
+#skills,
+#veille {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* =========================
@@ -427,10 +441,7 @@ footer {
 ========================= */
 
 #realisations {
-    width: 100%;
-    max-width: 1200px;
-    margin: 80px auto 0;
-    padding: 0 20px;
+    margin-top: 80px;
 }
 
 #realisations .section-title {
@@ -440,7 +451,9 @@ footer {
     color: white;
 }
 
-/* CARTES */
+/* =========================
+   CARTES REALISATIONS
+========================= */
 
 .pro-card {
     background-color: #1b2945;
@@ -535,7 +548,7 @@ footer {
     transform: translateY(-2px);
 }
 
-/* CONTENEUR */
+/* CONTENEUR REALISATIONS */
 
 .realisation-container {
     width: 100%;
