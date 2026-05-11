@@ -471,6 +471,38 @@ img {
     flex-direction: column;
 }
 
+/* CONTENU INTERNE */
+
+.pro-card .project-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+/* TEXTE */
+
+.pro-card p {
+    padding: 0 15px;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+
+    flex-grow: 1;
+}
+
+/* BOUTONS TOUJOURS EN BAS */
+
+.project-buttons {
+    margin-top: auto;
+
+    display: flex;
+    gap: 12px;
+    padding: 0 20px 25px;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .pro-card:hover {
     transform: translateY(-5px);
 }
